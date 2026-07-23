@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Buuri ❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="birthday-page">
+
+    <div class="stars"></div>
+
+   <section class="hero">
+
+    <div class="moon animate-moon">
+        ✨ 😉 ✨
+    </div>
+
+    <h1 class="title animate-title">
+        Happy Birthday
+    </h1>
+
+    <h2 class="name animate-name">
+        Buuri ❤️
+    </h2>
+
+    <p class="quote animate-quote">
+        Every star in the sky reminds me of your beautiful smile.
+    </p>
+
+    <button class="journey-btn animate-button" id="journeyBtn">
+    Begin Journey ❤️
+    </button>
+</section>
+
+<section id="gallery" class="gallery">
+
+    <h2 class="gallery-title hidden">
+        📸 Our Beautiful Memories
+    </h2>
+
+    <div class="polaroid-gallery">
+
+        <div class="polaroid photo1 hidden">
+            <img src="images/photo1.jpg" alt="Memory 1">
+            <p>Our first selfie ❤️</p>
+        </div>
+
+        <div class="polaroid photo2 hidden">
+            <img src="images/photo2.jpg" alt="Memory 2">
+            <p>The day I'll never forget ✨</p>
+        </div>
+
+        <div class="polaroid photo3 hidden">
+            <img src="images/photo3.jpg" alt="Memory 3">
+            <p>You make every day beautiful 🌸</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="letter" class="letter-section">
+
+    <h2 class="letter-title">
+        💌 A Letter For You
+    </h2>
+
+    <div class="envelope" id="openLetter">
+
+    <div class="envelope-back"></div>
+
+    <div class="envelope-flap"></div>
+
+    <div class="paper"></div>
+
+    </div>
+
+    <div class="love-letter hidden" id="loveLetter">
+
+        <h3>My Dearest Buuri ❤️</h3>
+
+        <div class="letter-text">
+
+    <p id="line1"></p>
+
+    <p id="line2"></p>
+
+    <p id="line3"></p>
+
+    <p id="line4"></p>
+
+    <p id="line5"></p>
+
+</div>
+
+        <h4>Forever Yours ❤️</h4>
+
+    </div>
+
+</section>
+
+<section class="petal-section">
+
+    <h2 class="petal-title">
+        🌸 Every Petal Reminds Me of You 🌸
+    </h2>
+
+    <p class="petal-text">
+        Just like these petals,
+        my love for you keeps falling endlessly...
+    </p>
+
+    <div id="petals-container"></div>
+
+</section>
+
+<section class="album-section">
+
+    <h2 class="album-title">
+        📸 Memories That Will Live Forever ❤️
+    </h2>
+
+    <p class="album-subtitle">
+        Every picture is a little piece of our story,
+        and every memory is forever in my heart.
+    </p>
+
+    <div class="album-grid">
+
+        <div class="album-card hidden">
+            <img src="images/photo4.jpg" alt="Memory 4">
+            <p>One of my favorite smiles ❤️</p>
+        </div>
+
+        <div class="album-card hidden">
+            <img src="images/photo5.jpg" alt="Memory 5">
+            <p>Every moment with you is special 🌸</p>
+        </div>
+
+        <div class="album-card hidden">
+            <img src="images/photo6.jpg" alt="Memory 6">
+            <p>A memory I'll always treasure ✨</p>
+        </div>
+
+        <div class="album-card hidden">
+            <img src="images/photo7.jpg" alt="Memory 7">
+            <p>Forever my favorite person ❤️</p>
+        </div>
+
+        <div class="album-card hidden">
+            <img src="images/photo8.jpg" alt="Memory 8">
+            <p>Our happiest moments together 🥰</p>
+        </div>
+
+        <div class="album-card hidden">
+            <img src="images/photo9.jpg" alt="Memory 9">
+            <p>More memories waiting for us ❤️</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ⭐ Constellation Section -->
+
+<section class="constellation-section">
+
+    <h2 class="constellation-title">
+        ✨ Our Love is Written in the Stars ✨
+    </h2>
+
+    <p class="constellation-text">
+        Click every star and watch our love shine in the night sky ❤️
+    </p>
+
+    <div class="sky" id="sky">
+
+    <svg class="constellation-lines" id="constellationLines"></svg>
+
+    <div class="star" data-order="1"></div>
+    <div class="star" data-order="2"></div>
+    <div class="star" data-order="3"></div>
+    <div class="star" data-order="4"></div>
+    <div class="star" data-order="5"></div>
+    <div class="star" data-order="6"></div>
+    <div class="star" data-order="7"></div>
+    <div class="star" data-order="8"></div>
+
+</div>
+
+    <h2 id="loveMessage" class="love-message">
+    💕 BUURI 💕
+</h2>
+
+</section> <!-- ✅ CLOSE CONSTELLATION SECTION HERE -->
+
+<!-- ==========================
+     OUR SONG
+========================== -->
+
+<section class="music-section">
+
+    <h2 class="music-title">
+        🎵 Our Song 🎵
+    </h2>
+
+    <p class="music-text">
+        song for you or just music...
+        I LOVE YOU DUDDU BUURI ❤️
+    </p>
+
+    <div class="record-player">
+
+        <div class="vinyl" id="vinyl">
+
+            <div class="record-center">
+                ❤️
+            </div>
+
+        </div>
+
+        <div class="needle" id="needle"></div>
+
+    </div>
+
+    <button id="playSong" class="play-btn">
+        ▶ Play Our Song
+    </button>
+
+    <audio id="loveSong">
+        <source src="music/song.mp3" type="audio/mpeg">
+    </audio>
+
+</section>
+
+<!-- ==========================
+     OUR FOREVER
+========================== -->
+
+<section class="forever-section">
+
+    <div class="moon-large">
+        🌙
+    </div>
+
+    <h2 class="forever-title">
+        Our Story Doesn't End Here...
+    </h2>
+
+    <p class="forever-text">
+
+        Every birthday is another beautiful page
+        in our journey.
+
+        <br><br>
+
+        No matter where life takes us...
+
+        <br><br>
+
+        I promise to keep choosing you,
+        loving you,
+        and standing beside you.
+
+        <br><br>
+
+        ❤️ Forever Yours ❤️
+
+    </p>
+
+    <button id="finalSurprise" class="forever-btn">
+
+        ❤️ Forever & Always ❤️
+
+    </button>
+
+</section>
+
+<!-- ==========================
+     COUNTDOWN
+========================== -->
+
+<div id="countdownOverlay" class="countdown-overlay">
+
+    <div id="countNumber" class="count-number">
+        3
+    </div>
+
+</div>
+
+<!-- ==========================
+     GRAND FINALE
+========================== -->
+
+<div id="finaleOverlay" class="finale-overlay">
+
+    <div id="sparkles"></div>
+
+    <div class="finale-content">
+    <div class="finale-moon">
+        🌙
+    </div>
+
+    <h1 class="finale-title">
+        🎉 Happy Birthday Mera Buuri (Puchu Puyu) ❣️
+    </h1>
+
+        <p class="finale-message">
+
+            Every smile of yours is my happiness.
+
+            <br><br>
+
+            Thank you for being the most beautiful
+            part of my life.
+
+            <br><br>
+
+            I hope every dream of yours comes true.
+
+            <br><br>
+
+            I Love You Today,
+            Tomorrow,
+            Forever ❤️
+
+        </p>
+
+        <h2 class="finale-end">
+
+            ✨ Forever & Always ✨
+
+        </h2>
+
+        <button id="finishJourney" class="finish-btn">
+
+    ❤️ Thank You For Being Mine ❤️
+
+</button>
+
+    </div>
+
+</div>
+
+<!-- Fireworks Container -->
+<div id="fireworks"></div>
+
+<div id="endingScreen" class="ending-screen">
+
+    <h1>
+
+        The End...
+
+    </h1>
+
+    <p>
+
+        Or rather,
+
+        <br><br>
+
+        just the beginning of our forever. ❤️
+
+    </p>
+
+</div>
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close-lightbox" id="closeLightbox">&times;</span>
+
+    <img id="lightboxImage" src="" alt="Memory">
+
+    <p id="lightboxCaption"></p>
+
+</div>
+
+<!-- ==========================
+     MUSIC POPUP
+========================== -->
+
+<div id="musicPopup" class="music-popup">
+
+    <div class="popup-card">
+
+        <h2>🎵</h2>
+
+        <h3>Play our song while viewing this surprise? ❤️</h3>
+
+        <p>
+            The experience is even more beautiful with our song.
+        </p>
+
+        <div class="popup-buttons">
+
+            <button id="yesMusic" class="popup-btn yes-btn">
+                ❤️ Yes, Play
+            </button>
+
+            <button id="noMusic" class="popup-btn no-btn">
+                🤍 Continue Without Music
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/birthday.js"></script>
+
+
+</body>
+</html>
